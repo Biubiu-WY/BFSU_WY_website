@@ -1,0 +1,86 @@
+@charset "UTF-8";
+#mainwrapper header {
+  /*网页头属性 */
+  background-color: rgba(175, 255, 251, 0.83);
+  overflow: auto;
+  font-family: montserrat, sans-serif;
+  font-style: bold;
+  font-weight: 500;
+}
+#mainwrapper header nav {
+  /*导航栏元素属性 */
+  text-align: right;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 2%;
+  width: 95%;
+  float: left;
+  color: rgba(146, 146, 146, 1.00);
+}
+header nav a {
+  /* 语言切换属性 */
+  padding-right: 2%;
+}
+#content #mainContent h1 {
+  /* 1级标题样式属性 */
+  color: rgba(1)
+}
+#content #mainContent p {
+  /* 正文样式属性 */
+  color: rgba(0, 0, 0, 1.00);
+  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+  font-weight: 200;
+  text-align: justify;
+  font-style: bold;
+}
+#mainContent {
+  /* 正文样式 */
+  padding-left: 2%;
+  width: 71%;
+  float: left;
+  padding-right: 2%;
+  padding-top: 41px;
+  margin-top: auto;
+}
+#mainwrapper #content #sidebar {
+  /* 右侧导航栏属性*/
+  width: 20%;
+  padding-left: 2%;
+  padding-right: 2%;
+  float: left;
+  background-color: rgba(246, 246, 246, 1.00);
+  margin-top: 140px;
+  padding-top: 32px;
+}
+#mainwrapper {
+  /* 全文容器 */
+  width: 70%;
+  overflow: auto;
+  margin-left: 10%;
+}
+/* 正文主图样式*/
+.img-style {
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+	/* 超链样式 */
+nav ul li {
+  list-style-type: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+nav ul {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+nav ul li a {
+  color: rgba(146, 146, 146, 1.00);
+  text-decoration: none;
+}
+	/* 网页头容器样式 */
+#mainwrapper header nav a {
+  color: rgba(146, 146, 146, 1.00);
+  text-decoration: none;
+}
